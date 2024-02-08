@@ -7,9 +7,8 @@
 
 ### ① HR - 조용한 사직 원인 파악 및 해결방안 제언
 <img width="1142" alt="스크린샷 2024-02-08 오후 1 24 05(2)" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/8bb42451-a512-42ee-843b-db2065a79a0d">
-
-<br>
-
+  
+  
 **목적** : '조용한 사직' 인원의 현황 파악, 원인 파악 및 해결방안 제언
 
 원래 HR 프로젝트의 목적은  
@@ -55,9 +54,8 @@
 해당 프로젝트에서는 과제요건서를 체계적으로 작성 후에 데이터 분석을 진행하였습니다.
   
 <img width="1300" alt="웨이퍼 이상탐지 과제요건서" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fbce2f01-7d10-41cf-8ef9-23d843015bf8">
-
-<br>
-
+  
+  
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, Anomaly Detection Modeling
 
 **사용 기술** : Python, Sklearn, Pyod
@@ -65,9 +63,8 @@
 **결과**
   
 <img width="1300" alt="결과" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776">
-
-<br>
-
+  
+  
 **피드백**
 - PCA + 마할라노비스 이상탐지의 경우 변수들이 서로 선형독립이라면 유클리드 거리를 이용하는 것과 동일한 개념이 됩니다. 그리고 선형독립이면 마할라노비스를 사용하는 것은 아니긴 하지만 마할라노비스 자체는 유의미한 방법으로 현업에서 많이 활용되고 있습니다.
 - Feature IMP는 현재 현업에서 많이 활용하지 않고 경향성 정도만 보고있습니다. 같이 사용하신 SHAP Values나 Permutaion IMP를 사용하시는걸 추천드립니다. 특히 Permutaion IMP는 모델이 달라도 모두 적용할 수 있기 때문에 모델마다 중요도를 동일선상에서 비교할 수 있는 강점이 있습니다.
