@@ -40,7 +40,7 @@
 
 ![하이닉스](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/b7a36dce-8737-4131-b03d-976ec95ef3a9)
 <p align="center">
-  출처 : <a href="https://news.skhynix.co.kr/post/yesterday-in-the-data-science-organization">SK 하이닉스 뉴스룸</a>
+  출처 : <a href="https://news.skhynix.co.kr/post/yesterday-in-the-data-science-organization">SK 하이닉스 뉴스룸</a>
 </p>
 
 **목적**
@@ -49,6 +49,7 @@
 3. 공정 센서의 다변량 데이터 분석을 통한 결함 원인 파악
 
 해당 프로젝트에서는 과제요건서를 체계적으로 작성 후에 데이터 분석을 진행하였습니다.
+  
 <img width="1300" alt="웨이퍼 이상탐지 과제요건서" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fbce2f01-7d10-41cf-8ef9-23d843015bf8">
 
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, Anomaly Detection Modeling
@@ -56,6 +57,7 @@
 **사용 기술** : Python, Sklearn, Pyod
 
 **결과**
+  
 <img width="1300" alt="결과" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776">
 
 **피드백**
