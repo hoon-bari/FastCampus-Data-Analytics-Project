@@ -57,7 +57,7 @@
   
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, Anomaly Detection Modeling
 
-**사용 기술** : Python, Sklearn, Pyod, Matplotlib, seaborn
+**사용 기술** : Python, Sklearn, Pyod, Matplotlib, Seaborn
 
 **결과**
   
@@ -81,14 +81,14 @@
 
 **목적** : 가상의 홈쇼핑 '다잇다'의 매출 성장 방안, 구매활동성 증대 방안, 세그먼트/개인별 아이템 추천 등 다각도 분석
 
-이 프로젝트에서는 가상의 홈쇼핑 '다잇다'의 데이터 분석가가 되었다고 생각하고, 상사/타 팀원에게 분석 과제를 받았다고 생각하며 진행했습니다.  
+이 프로젝트에서는 가상의 홈쇼핑 '다잇다'의 데이터 분석가로서, 상사/타 팀원에게 분석을 요청받았다고 생각하며 진행했습니다.  
 이 프로젝트 전 기본 프로젝트에서 진행했던 사항을 확장했다고 생각하시면 될 듯합니다.
   
 ![mail](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/6db41b4e-294c-48b1-9bf8-21c6bd8b4002)
 
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, RFM Analysis, Cohort Analysis, Recommendation System
 
-**사용 기술** : Python, Sklearn, Pandas, Matplotlib, seaborn, plotly
+**사용 기술** : Python, Sklearn, Pandas, Matplotlib, Seaborn, Plotly
 
 **결과**  
 '다잇다' 홈쇼핑의 상위 20% 매출 분기별 분석 및 RFM 분석, 코호트 분석을 통한 유저 세그먼트 및 인사이트를 도출하였습니다.  
