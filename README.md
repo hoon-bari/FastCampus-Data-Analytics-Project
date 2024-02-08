@@ -119,7 +119,7 @@
 
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, RFM Analysis
 
-**사용 기술** : SQL, Python, Matplotlib, Seaborn, Plotly, Tableau
+**사용 기술** : SQL, Python, Matplotlib, Seaborn, Plotly, Tableau, Whimsical
 
 **결과**
 - SQL : 각 데이터의 조인 및 윈도우 함수를 통해 날짜별 매출 확인 / Lead, Lag를 통해 전, 후일 매출 차이 분석
