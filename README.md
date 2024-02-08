@@ -8,7 +8,7 @@
 ### ① HR - 조용한 사직 원인 파악 및 해결방안 제언
 <img width="1142" alt="스크린샷 2024-02-08 오후 1 24 05(2)" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/8bb42451-a512-42ee-843b-db2065a79a0d">
   
-  
+    
 **목적** : '조용한 사직' 인원의 현황 파악, 원인 파악 및 해결방안 제언
 
 원래 HR 프로젝트의 목적은  
@@ -43,9 +43,8 @@
 <p align="center">
   출처 : <a href="https://news.skhynix.co.kr/post/yesterday-in-the-data-science-organization">SK 하이닉스 뉴스룸</a>
 </p>
-
-<br>
-
+  
+  
 **목적**
 1. 센서 데이터로부터 불량 웨이퍼 패턴 식별을 위한 이상탐지 모델 개발
 2. 데이터의 전처리를 통해 노이즈와 불필요한 정보를 제거하여 분석 효율성 향상
@@ -63,7 +62,7 @@
 **결과**
   
 <img width="1300" alt="결과" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776">
-  
+
   
 **피드백**
 - PCA + 마할라노비스 이상탐지의 경우 변수들이 서로 선형독립이라면 유클리드 거리를 이용하는 것과 동일한 개념이 됩니다. 그리고 선형독립이면 마할라노비스를 사용하는 것은 아니긴 하지만 마할라노비스 자체는 유의미한 방법으로 현업에서 많이 활용되고 있습니다.
