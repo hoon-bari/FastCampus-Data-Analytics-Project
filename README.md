@@ -6,7 +6,7 @@
 ## Projects
 
 ### ① HR - 조용한 사직 원인 파악 및 해결방안 제언
-<img width="1142" alt="스크린샷 2024-02-08 오후 1 24 05(2)" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/8bb42451-a512-42ee-843b-db2065a79a0d">
+![조용한 사직](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/8bb42451-a512-42ee-843b-db2065a79a0d)
   
     
 **목적** : '조용한 사직' 인원의 현황 파악, 원인 파악 및 해결방안 제언
@@ -61,7 +61,7 @@
 
 **결과**
   
-![결과](src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776)
+![결과](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776)
 
   
 **피드백**
