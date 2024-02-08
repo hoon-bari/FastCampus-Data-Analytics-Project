@@ -123,7 +123,8 @@
 **결과**
 - SQL : 각 데이터의 조인 및 윈도우 함수를 통해 날짜별 매출 확인 / Lead, Lag를 통해 전, 후일 매출 차이 분석
 - Tableau : Metric Hierarchy 대시보드 및 User Event Analytics 대시보드 작성, 대시보드 통한 인사이트 도출
-  - Metric Hierarchy Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusMetricHierarchyDashboard/1)) : 본격적인 분석 전 패스트캠퍼스의 매출 관련 Metric이 주별로 어떻게 변화하는지 관찰하기 위해 작성.  
+  - Metric Hierarchy Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusMetricHierarchyDashboard/1)) : 본격적인 분석 전 패스트캠퍼스의 매출 관련 Metric이 주별로 어떻게 변화하는지 관찰하기 위해 작성.
+      
     ![Metric Hierarchy](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fe856f0b-fbf7-4f23-a6b9-d4a3a8203bec)  
     
   - User Event Analytics Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusUserEventAnalyticsChartDashboard/ChartDashboard#1)) : 유저의 가입, 장바구니 등록 및 Drop, 구매, 환불까지 일별, 주별, 월별, 기간별로 구분하여 라인, 바, 영역차트로 보고자 하였음. 스타일은 Amplitude와 비슷하게 만듬. 카테고리는 원래 데이터에 없었으므로 현재 패스트캠퍼스가 나누고 있는 대분류 카테고리를 참고하여 구성.  
@@ -132,3 +133,15 @@
 
 - python : 데이터 EDA를 통한 인사이트 도출
 
+![결론_1](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/3eec2f92-4628-41c0-92db-d5b04157c0e3)  
+
+![결론_2](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/9d73a92a-04a1-4402-a803-5d23b3e2cc0e)
+  
+**피드백** : 작성 예정
+
+**보완할 점**
+- Metric Hierarchy에 주문 취소율, 완료율, 계류율 추가
+- customer에 있는 가입년도 이용, 신규회원과 기존회원 구분하여 두 집단의 주문 수 및 매출 차이 비교(대시보드에 내용 추가)
+- Hibernated 회원의 특성 파악
+- 현재 카테고리는 대분류만 했으나, 세부적인 카테고리가 있으면 더 좋았을 것
+- 이벤트 여부 확인을 위한 Promotion 데이터가 있었다면 더 자세한 분석이 가능했을 것
