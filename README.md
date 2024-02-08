@@ -52,16 +52,16 @@
 
 해당 프로젝트에서는 과제요건서를 체계적으로 작성 후에 데이터 분석을 진행하였습니다.
   
-<img width="1300" alt="웨이퍼 이상탐지 과제요건서" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fbce2f01-7d10-41cf-8ef9-23d843015bf8">
+![웨이퍼 이상탐지 과제요건서](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fbce2f01-7d10-41cf-8ef9-23d843015bf8)
   
   
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, Anomaly Detection Modeling
 
-**사용 기술** : Python, Sklearn, Pyod
+**사용 기술** : Python, Sklearn, Pyod, Matplotlib, seaborn
 
 **결과**
   
-<img width="1300" alt="결과" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776">
+![결과](src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776)
 
   
 **피드백**
@@ -71,6 +71,7 @@
 **보완할 점**
 - Permutaion IMP를 사용해서 모델별 성능 비교 다시 해보기
 - 다른 웨이퍼 데이터 찾아보고 클러스터링 분석, 분류 분석, 예측 분석 등 해보고 블로그에 관련 글 올려보기
+- 이상탐지 데이터에 대해 태블로 대시보드 만들어보기
 
 <br>
 
@@ -81,6 +82,33 @@
 **목적** : 가상의 홈쇼핑 '다잇다'의 매출 성장 방안, 구매활동성 증대 방안, 세그먼트/개인별 아이템 추천 등 다각도 분석
 
 이 프로젝트에서는 가상의 홈쇼핑 '다잇다'의 데이터 분석가가 되었다고 생각하고, 상사/타 팀원에게 분석 과제를 받았다고 생각하며 진행했습니다.  
+이 프로젝트 전 기본 프로젝트에서 진행했던 사항을 확장했다고 생각하시면 될 듯합니다.
   
 ![mail](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/6db41b4e-294c-48b1-9bf8-21c6bd8b4002)
+
+**스킬** : Data Cleaning, Data Analysis, Data Visualization, RFM Analysis, Cohort Analysis, Recommendation System
+
+**사용 기술** : Python, Sklearn, Pandas, Matplotlib, seaborn, plotly
+
+**결과**  
+'다잇다' 홈쇼핑의 상위 20% 매출 분기별 분석 및 RFM 분석, 코호트 분석을 통한 유저 세그먼트 및 인사이트를 도출하였습니다.  
+그리고 해당 분석에 대한 내용을 블로그 글로 게재하고 있습니다.(블로그에는 피드백 받은 사항을 수정하여 올리고 있습니다.)  
+
+블로그 글 ① : [‘다잇다’ 시리즈 ① : 파레토 차트를 통해 ‘다잇다’ 홈쇼핑의 매출 성장 방안 인사이트 도출하기](https://hoon-bari.github.io/DA/Daitda_1)
+블로그 글 ② : [‘다잇다’ 시리즈 ② : ‘다잇다’ 홈쇼핑의 고객 관점에서 구매활동성 증대 방안 분석하기](https://hoon-bari.github.io/DA/Daitda_2)
+
+**피드백**
+- 고객의 서비스 이용기간에 따라 장기 고객을 구분하여 접근한 방법이 매우 좋았습니다. 커머스 도메인의 경우 상대적으로 지출이 많거나, 구매 빈도가 높은 고객을 주요 고객으로 바라보는 편입니다. 다만 장기적 관점에서 서비스의 지속 성장을 위해서는 지속적으로 서비스를 이용하는 장기 고객도 중요하다고 할 수 있습니다.
+- 실제 실무에서의 체리피커 고객은 활동성이 떨어지는 고객이라기보다는 LTV가 낮고, 특정 이벤트 혹은 해당 서비스를 장기 이용할 목적이 아닌 특정 목적으로 유입된 고객을 말합니다. 서비스 입장에서는 이러한 고객은 수익성이 좋지 않기 때문에 이러한 고객이 지속적으로 유입되는 상황이라면 현재 서비스에서 운영되고 있는 마케팅, 이벤트 등을 다시 점검할 필요가 있습니다. 혹시라도 위와 같은 형태의 분석 과제 전형을 수행하신다면 0~1년차 고객 중 일부 고객을 체리피커 고객이라고 표현하기 보다는 발견된 특성 그대로 구분하여 표현(단기 이용 고객)해주시는게 좋습니다.
+- 아이템 추천을 위해 협업필터링을 적용해주신 부분도 좋았지만, 해당 데이터의 경우 희소 행렬이 크게 형성되어 시간이 오래 걸릴 수 있으므로 PCA나 행렬분해(Matrix Factorization), 최근접 이웃 등을 적용하여 데이터의 Sparcity를 줄이는 부분이 필요합니다.
+- RFM 분석의 경우 R, F, M 각 구간이 변별력을 가지는 것이 중요합니다. 각 구간의 그룹이 유의미성을 가질 수 있는지 분석 전에 체크하시는 것이 필요합니다.
+
+**보완할 점**
+- 피드백을 바탕으로 아이템 추천(Association Rule, Collaborative Filltering) 다시 적용해보고 블로그 글 작성
+- '다잇다' 데이터에 대해 커머스 대시보드를 태블로로 만들어보고 관련 글 작성
+
+<br>
+
+### ④ Final Project - 패스트캠퍼스 기업 데이터를 바탕으로 기업 발전을 위한 인사이트 도출해보기
+
 
