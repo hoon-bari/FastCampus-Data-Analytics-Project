@@ -113,7 +113,8 @@
 
 **목적** : 패스트캠퍼스의 customer, course, order, refund 데이터를 가지고 패스트캠퍼스 비즈니스에 도움이 될 수 있는 인사이트 도출
 
-해당 프로젝트에서는 SQL, Python, Tableau 등을 모두 이용해 데이터를 분석하였으며, 추가적으로 RFM 분석 등 적용으로 유저 세그먼트를 통해 마케팅에 도움이 될만한 인사이트를 발견하려 했습니다.
+해당 프로젝트에서는 SQL, Python, Tableau 등을 모두 이용해 데이터를 분석하였으며, 추가적으로 RFM 분석 등 적용으로 유저 세그먼트를 통해 마케팅에 도움이 될만한 인사이트를 발견하려 했습니다.  
+데이터는 customer를 제외하곤 2022년 1월의 데이터로 이루어져있어, 1월의 매출 분석을 통한 인사이트를 주로 도출했습니다.  
 
 **스킬** : Data Cleaning, Data Analysis, Data Visualization, RFM Analysis
 
@@ -121,8 +122,13 @@
 
 **결과**
 - SQL : 각 데이터의 조인 및 윈도우 함수를 통해 날짜별 매출 확인 / Lead, Lag를 통해 전, 후일 매출 차이 분석
-- python : 데이터 EDA를 통한 인사이트 도출
 - Tableau : Metric Hierarchy 대시보드 및 User Event Analytics 대시보드 작성, 대시보드 통한 인사이트 도출
-  - Metric Hierarchy Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusMetricHierarchyDashboard/1))
-    ![Metric Hierarchy](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fe856f0b-fbf7-4f23-a6b9-d4a3a8203bec)
-  - 
+  - Metric Hierarchy Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusMetricHierarchyDashboard/1)) : 본격적인 분석 전 패스트캠퍼스의 매출 관련 Metric이 주별로 어떻게 변화하는지 관찰하기 위해 작성.  
+    ![Metric Hierarchy](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fe856f0b-fbf7-4f23-a6b9-d4a3a8203bec)  
+    
+  - User Event Analytics Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusUserEventAnalyticsChartDashboard/ChartDashboard#1)) : 유저의 가입, 장바구니 등록 및 Drop, 구매, 환불까지 일별, 주별, 월별, 기간별로 구분하여 라인, 바, 영역차트로 보고자 하였음. 스타일은 Amplitude와 비슷하게 만듬. 카테고리는 원래 데이터에 없었으므로 현재 패스트캠퍼스가 나누고 있는 대분류 카테고리를 참고하여 구성.  
+
+    ![User Event Analytics Chart](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/25c8d9a6-2c22-4dc0-abc3-7faee6255067)
+
+- python : 데이터 EDA를 통한 인사이트 도출
+
