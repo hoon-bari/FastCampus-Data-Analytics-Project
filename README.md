@@ -74,5 +74,13 @@
 
 <br>
 
+### ③ 커머스 - 가상의 홈쇼핑 '다잇다'의 A-Z까지 분석해보기
 
+![다잇다](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/5aa9ac76-7ad7-4dad-bb8b-e3c081e86107)
+
+**목적** : 가상의 홈쇼핑 '다잇다'의 매출 성장 방안, 구매활동성 증대 방안, 세그먼트/개인별 아이템 추천 등 다각도 분석
+
+이 프로젝트에서는 가상의 홈쇼핑 '다잇다'의 데이터 분석가가 되었다고 생각하고, 상사/타 팀원에게 분석 과제를 받았다고 생각하며 진행했습니다.  
+  
+![mail](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/6db41b4e-294c-48b1-9bf8-21c6bd8b4002)
 
