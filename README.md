@@ -94,7 +94,7 @@
 '다잇다' 홈쇼핑의 상위 20% 매출 분기별 분석 및 RFM 분석, 코호트 분석을 통한 유저 세그먼트 및 인사이트를 도출하였습니다.  
 그리고 해당 분석에 대한 내용을 블로그 글로 게재하고 있습니다.(블로그에는 피드백 받은 사항을 수정하여 올리고 있습니다.)  
 
-블로그 글 ① : [‘다잇다’ 시리즈 ① : 파레토 차트를 통해 ‘다잇다’ 홈쇼핑의 매출 성장 방안 인사이트 도출하기](https://hoon-bari.github.io/DA/Daitda_1)
+블로그 글 ① : [‘다잇다’ 시리즈 ① : 파레토 차트를 통해 ‘다잇다’ 홈쇼핑의 매출 성장 방안 인사이트 도출하기](https://hoon-bari.github.io/DA/Daitda_1)  
 블로그 글 ② : [‘다잇다’ 시리즈 ② : ‘다잇다’ 홈쇼핑의 고객 관점에서 구매활동성 증대 방안 분석하기](https://hoon-bari.github.io/DA/Daitda_2)
 
 **피드백**
@@ -109,6 +109,20 @@
 
 <br>
 
-### ④ Final Project - 패스트캠퍼스 기업 데이터를 바탕으로 기업 발전을 위한 인사이트 도출해보기
+### ④ Final Project - 패스트캠퍼스 기업 데이터 분석
 
+**목적** : 패스트캠퍼스의 customer, course, order, refund 데이터를 가지고 패스트캠퍼스 비즈니스에 도움이 될 수 있는 인사이트 도출
 
+해당 프로젝트에서는 SQL, Python, Tableau 등을 모두 이용해 데이터를 분석하였으며, 추가적으로 RFM 분석 등 적용으로 유저 세그먼트를 통해 마케팅에 도움이 될만한 인사이트를 발견하려 했습니다.
+
+**스킬** : Data Cleaning, Data Analysis, Data Visualization, RFM Analysis
+
+**사용 기술** : SQL, Python, Matplotlib, Seaborn, Plotly, Tableau
+
+**결과**
+- SQL : 각 데이터의 조인 및 윈도우 함수를 통해 날짜별 매출 확인 / Lead, Lag를 통해 전, 후일 매출 차이 분석
+- python : 데이터 EDA를 통한 인사이트 도출
+- Tableau : Metric Hierarchy 대시보드 및 User Event Analytics 대시보드 작성, 대시보드 통한 인사이트 도출
+  - Metric Hierarchy Dashboard([링크](https://public.tableau.com/app/profile/seunghoon.choi/viz/FastcampusMetricHierarchyDashboard/1))
+    ![Metric Hierarchy](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fe856f0b-fbf7-4f23-a6b9-d4a3a8203bec)
+  - 
