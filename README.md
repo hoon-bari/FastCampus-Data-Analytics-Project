@@ -18,7 +18,7 @@
 
 블로그 글 ① : [조용한 사직을 어떻게 정의할 수 있을까?](https://hoon-bari.github.io/DA/QuietQuitting)
 
-**스킬** : Data Cleaning, Data Analysis, Data Visualization
+**스킬** : Data Cleaning, Data Analysis, Hypothesis Testing, Data Visualization
 
 **사용 기술** : SQL, Tableau, PPT
 
@@ -34,6 +34,8 @@
 - "조직의 생산성 하락"을 문제로 삼고 다시 한번 가설을 설정해서 데이터를 분석해보기.
 - 퇴직 분석에 대한 태블로 대시보드 만들어보기
 
+<br>
+
 ### ② 제조 - 반도체 웨이퍼 이상탐지 프로젝트
 
 ![하이닉스](https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/b7a36dce-8737-4131-b03d-976ec95ef3a9)
@@ -48,3 +50,23 @@
 
 해당 프로젝트에서는 과제요건서를 체계적으로 작성 후에 데이터 분석을 진행하였습니다.
 <img width="1300" alt="웨이퍼 이상탐지 과제요건서" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/fbce2f01-7d10-41cf-8ef9-23d843015bf8">
+
+**스킬** : Data Cleaning, Data Analysis, Data Visualization, Anomaly Detection Modeling
+
+**사용 기술** : Python, Sklearn, Pyod
+
+**결과**
+<img width="1300" alt="결과" src="https://github.com/hoon-bari/FastCampus-Data-Analytics-Project/assets/121400054/a9de7dc7-dcaa-469e-9270-67f28e570776">
+
+**피드백**
+- PCA + 마할라노비스 이상탐지의 경우 변수들이 서로 선형독립이라면 유클리드 거리를 이용하는 것과 동일한 개념이 됩니다. 그리고 선형독립이면 마할라노비스를 사용하는 것은 아니긴 하지만 마할라노비스 자체는 유의미한 방법으로 현업에서 많이 활용되고 있습니다.
+- Feature IMP는 현재 현업에서 많이 활용하지 않고 경향성 정도만 보고있습니다. 같이 사용하신 SHAP Values나 Permutaion IMP를 사용하시는걸 추천드립니다. 특히 Permutaion IMP는 모델이 달라도 모두 적용할 수 있기 때문에 모델마다 중요도를 동일선상에서 비교할 수 있는 강점이 있습니다.
+
+**보완할 점**
+- Permutaion IMP를 사용해서 모델별 성능 비교 다시 해보기
+- 다른 웨이퍼 데이터 찾아보고 클러스터링 분석, 분류 분석, 예측 분석 등 해보고 블로그에 관련 글 올려보기
+
+<br>
+
+
+
